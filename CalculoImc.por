@@ -8,7 +8,7 @@ programa
       leia(altura)
       escreva ("Digite seu peso ")
       leia (peso)
-      imc = peso / (altura * 2)
+      imc = peso / (altura * altura)
       se ( imc < 18.5) {
       	escreva ("Abaixo do peso ", imc)
       }
